@@ -8,7 +8,7 @@
   --btn-bg-color-hover:#66FCF1;
   --color:#FFFF;
 }
-
+/* main section  */
 *{
   margin: 0;
   padding: 0;
@@ -62,20 +62,8 @@ section{
   font-weight: 700;
   line-height: 70px;
   letter-spacing: 1px;
-  /* overflow: hidden; */
 }
 
-/* .animated-text h3{
-  color: #4e9eff;
-  font-size: 3em;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 1px;
-}
-
-.animated-text h3:nth-child(1){
-  animation: text-move 10s infinite;
-} */
 
 @keyframes text-move{
   0%{
@@ -123,7 +111,7 @@ section{
   font-size: 25px;
   margin-right: 30px;
 }
-
+/* Navigation Bar  */
 header{
   z-index: 999;
   position: fixed;
@@ -174,7 +162,7 @@ header.sticky .navbar a:hover{
 body{
   min-height: 110vh;
 }
-
+/* Home section  */
 .title{
   width: 100%;
   display: flex;
@@ -213,7 +201,7 @@ body{
   background: var(--font-color);
   transform: translateX(-50%);
 }
-
+/* About section  */
 .about .content{
   position: relative;
   width: 100%;
@@ -257,7 +245,7 @@ body{
 .about .content .right .paragraph-text{
   font-size: 1em;
 }
-
+/* Skills section  */
 .skills{
   background: var(--light-bg-color);
 }
@@ -343,6 +331,7 @@ body{
   width: 75%;
   background: var(--prgbar-color);
 }
+/* Education section  */
 
 .education .content{
   display: flex;
@@ -391,6 +380,7 @@ body{
   margin: 10px;
 }
 
+/* Work section  */
 .work{
   background: var(--light-bg-color);
 }
@@ -432,7 +422,7 @@ body{
 .work .content .card .card-img img:hover{
   transform: scale(1.2);
 }
-
+/* Contact us section  */
 .contact .content{
   display: flex;
   justify-content: center;
